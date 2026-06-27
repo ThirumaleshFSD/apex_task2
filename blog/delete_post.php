@@ -1,7 +1,7 @@
 <?php
 session_start();
 require_once 'db.php';
-
+//this php of the delate the post of code 
 if (!isset($_SESSION['user_id'])) {
     header("Location: login.php");
     exit;
