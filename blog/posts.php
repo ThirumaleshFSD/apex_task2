@@ -3,6 +3,7 @@ session_start();
 require_once 'db.php';
 
 // Require login
+//required for login page
 if (!isset($_SESSION['user_id'])) {
     header("Location: login.php");
     exit;
