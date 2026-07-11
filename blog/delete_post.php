@@ -9,6 +9,7 @@ if (!isset($_SESSION['user_id'])) {
 
 $db = getDB();
 $id = intval($_GET['id'] ?? 0);
+//the intrevels are updatd here
 
 if ($id > 0) {
     $stmt = $db->prepare("DELETE FROM posts WHERE id = ?");
