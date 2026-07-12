@@ -19,6 +19,7 @@ $posts = $db->query("
     JOIN users u ON p.user_id = u.id
     ORDER BY p.created_at DESC
 ");
+//the blog page for login
 ?>
 <!DOCTYPE html>
 <html lang="en">
