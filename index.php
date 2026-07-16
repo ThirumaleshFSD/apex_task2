@@ -8,6 +8,7 @@
  */
 
 // ─── Environment Check ────────────────────────────────────────────────────────
+//the php will be intiated in this 
 $phpVersion   = phpversion();
 $mysqlEnabled = extension_loaded('mysqli') ? 'Enabled ✔' : 'Not Loaded ✘';
 $apacheInfo   = $_SERVER['SERVER_SOFTWARE'] ?? 'Unknown';
