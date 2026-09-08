@@ -16,6 +16,7 @@ $apacheInfo   = $_SERVER['SERVER_SOFTWARE'] ?? 'Unknown';
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    //the php will added here can u see all the 
     //the index php has been  the implemented the this 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
